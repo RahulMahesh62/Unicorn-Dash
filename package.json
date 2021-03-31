@@ -1,0 +1,38 @@
+{
+    "name": "unicorn-dash",
+    "displayName": "Unicorn Dash",
+    "description": "A modern VS Code dark theme.",
+    "version": "1.0.0",
+    "publisher": "RahulMahesh",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RahulMahesh62/Unicorn-Dash"
+    },
+    "keywords": [
+        "theme",
+        "theme dark",
+        "dark theme",
+        "unicorn",
+        "unicorn dark",
+        "dash",
+        "unicorn dash",
+        "unicorn-dash",
+        "rahul mahesh"
+    ],
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Unicorn Dash",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Unicorn Dash-color-theme.json"
+            }
+        ]
+    }
+}
